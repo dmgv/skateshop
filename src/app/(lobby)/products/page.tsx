@@ -3,7 +3,7 @@ import { env } from "@/env.js"
 import type { SearchParams } from "@/types"
 
 import { getProducts } from "@/lib/queries/product"
-import { AlertCard } from "@/components/alert-card"
+// import { AlertCard } from "@/components/alert-card"
 import {
   PageHeader,
   PageHeaderDescription,
@@ -34,7 +34,7 @@ export default async function ProductsPage({
           Buy products from our stores
         </PageHeaderDescription>
       </PageHeader>
-      <AlertCard />
+      {/* <AlertCard /> */}
     </Shell>
   )
 }
